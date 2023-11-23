@@ -1,7 +1,7 @@
 {
   "name": "electron-textdeck",
   "version": "0.2.1",
-  "description": "",
+  "description": "TextDeck electron port. Plain text memo deck app.",
   "main": "main.js",
   "scripts": {
     "start": "electron-forge start",
@@ -11,7 +11,7 @@
     "deploy": "cp -r out/TextDeck-darwin-x64/TextDeck.app /Applications"
   },
   "keywords": [],
-  "author": "",
+  "author": "karino2",
   "license": "ISC",
   "devDependencies": {
     "@electron-forge/cli": "^6.0.0-beta.54",
