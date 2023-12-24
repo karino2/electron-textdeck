@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         #edit-area {
-            width: 100%
+            width: 100%;
+            border: 8px solid #96505f;
         }
     </style>
     <link rel="stylesheet" href="./node_modules/bulma/css/bulma.css">
@@ -17,8 +18,8 @@
         <div id="edit-div" style="display:none;">
             <textarea id="edit-area" class="textarea"></textarea>
             <div class="buttons level-right">
-                <button class="button" id="cancel-edit">Cancel</button>
-                <button class="button" id="submit-edit">Submit</button>
+                <button class="button is-dark" id="cancel-edit">Cancel</button>
+                <button class="button is-dark" id="submit-edit">Submit</button>
             </div>
         </div>
         <div id="content-root" class="content">
